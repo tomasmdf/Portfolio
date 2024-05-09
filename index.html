@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ------------------- CSS ----------------------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ----------------------------------------------- -->
+
+    <!-- ------------------- NORMALIZE ----------------------- -->
+    <link rel="stylesheet" href="normalize.css">
+    <!-- ----------------------------------------------- -->
+
+
+    <!-- ------------------- FONTS ----------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- ------------------------------------------------- -->
+
+    <!-- ------------------- ICONS ----------------------- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- ----------------------------------------------- -->
+
+    
+    <link rel="icon" type="" href="src/01.png">
+
+    <title>Tomás De Faveri</title>
+</head>
+<body id="body">
+    <!-- ---------------------------- HEADER SECTION ------------------------------ -->
+    <header class="header">
+        <img class="header-avatar" src="src/01.png" alt="avatar">
+        <nav class="header-navbar">
+            <input type="checkbox" name="" id="check">
+            <label for="check">
+                <i class="bi bi-list menu-icon"></i>
+            </label>
+            <ul class="header-navbar-ul">
+                <li class="header-nav-ul-li"><a href="#home" class="header-nav-ul-li-a">Home</a></li>
+                <li class="header-nav-ul-li"><a href="#projects" class="header-nav-ul-li-a">Projects</a></li>
+                <li class="header-nav-ul-li"><a href="#skills" class="header-nav-ul-li-a">Skills</a></li>
+                <li class="header-nav-ul-li"><a href="#contact" class="header-nav-ul-li-a">Contact</a></li>
+                
+                <!--<a class="cv-btn" href="TAD-ARBOL.pdf" target="_blank" rel="noopener noreferrer">
+                    Download CV 
+                    <img class="cta-img" src="src/10.png" alt="">
+                </a>-->
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ---------------------------- HOME SECTION ------------------------------ -->
+    <section id="home" class="home-section">
+            <h4>Front End Developer</h4>
+            <h1 class="home-title">Hi i'm <strong>Tomas De Faveri</strong>, i'm based in Argentina<strong>.</strong></h1>
+            <p class="home-p">Passionate about creativity and innovation, I explore new forms of expression through design and technology.</p>
+            <div class="cta-container-home">
+                <a class="btn primary-cta home-cta" href="#contact" rel="noopener noreferrer">
+                    Let's Chat 
+                    <img class="cta-img" src="src/09.png" alt="email-icon">
+                </a>
+                <div class="status-container">
+                    <div class="status">
+                    </div>
+                    <h2 class="status-description">Avaliable for hire</h2>
+                </div>
+                
+            </div>
+    </section>
+
+
+    <!-- ---------------------------- PROJECTS SECTION ------------------------------ -->
+    <section id="projects" class="projects-section">
+        
+        <div class="title-section">
+            <h2 class="section-title">Projects</h2>
+            <p class="dot">.</p>
+            <img class="img-to-title" src="src/04.png" alt="">
+        </div>
+
+        <article class="project-item">
+            <div class="project-item-left">
+                <img class="project-snapshot" src="src/MovieSearcher.jpg" alt="snapshot  of the project">
+            </div>
+            <div class="project-item-right">
+                <h4 class="tech-used">HTML - CSS - JAVASCRIPT</h4>
+                <h2 class="project-title">Movie Searcher</h2>
+                <h3 class="project-description">A streamlined movie search app catering to film enthusiasts, providing swift access to a vast database of titles for effortless browsing and discovery.</h3>
+                <div class="cta-container">
+                    <a class="btn visit-cta primary-cta" href="http://" target="_blank" rel="noopener noreferrer">
+                        Visit 
+                        <img class="cta-img" src="src/05.png" alt="">
+                    </a>
+                    <a class="btn secundary-cta" href="http://" target="_blank" rel="noopener noreferrer">
+                        See code 
+                        <img class="cta-img" src="src/06.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </article>
+        <article class="project-item">
+            <div class="project-item-left">
+                <img class="project-snapshot" src="src/WeatherApp.jpg" alt="snapshot  of the project">
+            </div>
+            <div class="project-item-right">
+                <h4 class="tech-used">HTML - CSS - JAVASCRIPT</h4>
+                <h2 class="project-title">Weather App</h2>
+                <h3 class="project-description">A sleek weather app delivering accurate forecasts effortlessly, keeping users informed and prepared.</h3>
+                <div class="cta-container">
+                    <a class="btn visit-cta primary-cta" href="http://" target="_blank" rel="noopener noreferrer">
+                        Visit 
+                        <img class="cta-img" src="src/05.png" alt="">
+                    </a>
+                    <a class="btn secundary-cta" href="http://" target="_blank" rel="noopener noreferrer">
+                        See code 
+                        <img class="cta-img" src="src/06.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- ---------------------------- SKILLS SECTION ------------------------------ -->
+    <section id="skills" class="skills-section">
+        
+        <div class="title-section">
+            <h2 class="section-title">Skills</h2>
+            <p class="dot">.</p>
+            <img class="img-to-title" src="src/07.png" alt="">
+        </div>
+        <div class="skills-container">
+            <span>
+                <img data-tooltip="HTML" class="skill-icon" src="src/html-icon.png" alt="">
+            </span>
+            <span>
+                <img data-tooltip="CSS" class="skill-icon" src="src/css-icon.png" alt="">
+            </span>
+            <span>
+                <img data-tooltip="JAVASCRIPT" class="skill-icon" src="src/javascript-icon.png" alt="">
+            </span>
+            <span>
+                <img data-tooltip="PYTHON" class="skill-icon" src="src/python-icon.png" alt="">
+            </span>
+            <span>
+                <img data-tooltip="FIGMA" class="skill-icon" src="src/figma-icon.png" alt="">
+            </span>
+            <span>
+                <img data-tooltip="PHOTOSHOP" class="skill-icon" src="src/photoshop-icon.png" alt="">
+            </span>
+            <span>
+                <img data-tooltip="TAILWIND CSS" class="skill-icon" src="src/tailwind-icon.png" alt="">
+            </span>
+        </div>
+    </section>
+
+
+    <!-- ---------------------------- CONTACT SECTION ------------------------------ -->
+    <section id="contact" class="contact-section">
+            <div class="title-container">
+                <h2 class="section-title">Let's Chat</h2>
+                <p class="dot">.</p>
+                <img class="img-to-title" src="src/08.png" alt="">
+            </div>
+
+            <form class="form" action="mailto:defaveritomas@gmail.com" method="POST">
+                <label for="title">
+                    Title:
+                </label>
+                <input class="form-input" type="text" name="title" id="title" placeholder="I want to work with you..." required> 
+                <label for="email">
+                    Email:
+                </label>
+                <input class="form-input" type="email" name="email" id="email" placeholder="fakeemail@gmail.com" required> 
+                <label for="description">
+                    Description:
+                </label>
+                <textarea class="form-input" name="message" id="description" cols="30" rows="10" placeholder="Write something..."></textarea>
+                <a class="btn secundary-cta" href="http://" target="_blank" rel="noopener noreferrer">
+                    Send Email 
+                    <img class="cta-img" src="src/09.png" alt="">
+                </a>
+            </form> 
+            
+            <a class="email" type="email" target="_blank" href="mailto:defaveritomas@gmail.com">defaveritomas@gmail.com</a>
+            <div class="cta-container">
+                <a class="secundary-cta-social" href="https://www.linkedin.com/in/tomas-de-faveri-ba977724a/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a class="secundary-cta-social" href="https://www.instagram.com/_petudefaveri_/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a class="secundary-cta-social" href="https://github.com/tomasmdf" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+    </section>
+
+    <!-- ---------------------------- FOOTER SECTION ------------------------------ -->
+    <footer class="footer">
+        <h2>Thanks.</h2>
+    </footer>
+
+</body>
+</html>
